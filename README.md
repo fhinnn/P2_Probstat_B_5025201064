@@ -55,5 +55,38 @@ yang signifikan secara statistika dalam hal jumlah denyut jantung, sebelum dan s
 mengkonsumsi obat 𝐴 pada tingkat signifikansi 5%.
 
 # Soal 2
+
+- Poin A
+
+Apakah Anda setuju dengan klaim tersebut?
+
+- Katerangan
+
+- Poin B
+
+Jelaskan maksud dari output yang dihasilkan!
+```r
+zsum.test(mean.x=23500, sigma.x = 3900, n.x = 100,  
+alternative = "greater", mu = 20000,
+conf.level = 0.95)
+```
+
+- Keterangan
+
+Dari output yang dihasilkan niali `z = 8.9744`,` p-value < 2.2e-16` dan dapat disimpulkan bahwa hipotesis alternatif yang diteria
+
+- Dokumentasi
+
+ ![2.jpg](https://drive.google.com/uc?export=view&id=1zDDyiRpQOT-Twztj6QRiNX5B9lpcAEZI)
+ 
+- Poin C
+
+Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+
+- Keterangan
+
+
+
+
  
  
