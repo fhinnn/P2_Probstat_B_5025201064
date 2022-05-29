@@ -264,7 +264,31 @@ fungsi ggplot() untuk melakukan visualisasi data.
 
 ![4 e.jpg](https://drive.google.com/uc?export=view&id=1VUPdUFNb0rpxmK6JZhHPznDCed8N10aW)
 
-#Soal 5
+# Soal 5
+- Poin A
+
+Buatlah plot sederhana untuk visualisasi data
+
+- Keterangan
+
+Pertama, digunakan beberapa library sebagai berikut.
+Kedua, memasukkan dan membaca dataset yang telah disediakan.
+Ketiga, melakukan observasi pada dataset.
+Keempat, melakukan viasualisasi dengan menggunakan simple plot dengan fungsi `qplot()`
+sebagai berikut.
+```
+qplot(x = Temp, y = Light, geom = "point", data = GTL) + facet_grid(.~Glass, labeller = label_both)
+```
+- Dokumentasi
+
+![5 a.jpg](https://drive.google.com/uc?export=view&id=16P8M1rLpE0TDlQBSQONkAIsoDAMagyss)
+
+
+
+
+
+
+
 
 
 
